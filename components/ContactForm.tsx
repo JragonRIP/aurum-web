@@ -1,67 +1,30 @@
 "use client";
 
-import { useMemo } from "react";
-import { SITE } from "@/lib/site";
-
 type ContactFormProps = {
   /** Shorter field labels on home teaser */
   compact?: boolean;
   className?: string;
 };
 
+const FORMSUBMIT_ACTION =
+  "https://formsubmit.co/aurumautodetail906@gmail.com";
+const FORMSUBMIT_NEXT =
+  "https://aurum-website-beta.vercel.app/contact/thank-you";
+
 export function ContactForm({ compact, className = "" }: ContactFormProps) {
-  const action = useMemo(() => {
-    if (!SITE.formSubmitConfigured) return "";
-    return `https://formsubmit.co/${encodeURIComponent(SITE.formSubmitEmail)}`;
-  }, []);
-
-  if (!SITE.formSubmitConfigured) {
-    return (
-      <div
-        className={`rounded-xl border border-border-subtle bg-surface/80 p-6 text-sm text-muted ${className}`}
-      >
-        <p className="font-medium text-foreground">Form is not connected yet</p>
-        <p className="mt-3 leading-relaxed">
-          Add{" "}
-          <code className="rounded bg-background px-1.5 py-0.5 text-xs text-gold-soft">
-            NEXT_PUBLIC_FORMSUBMIT_EMAIL
-          </code>{" "}
-          to{" "}
-          <code className="rounded bg-background px-1.5 py-0.5 text-xs text-gold-soft">
-            .env.local
-          </code>{" "}
-          (copy from{" "}
-          <code className="rounded bg-background px-1.5 py-0.5 text-xs text-gold-soft">
-            .env.example
-          </code>
-          ). Restart the dev server. On the first submit, FormSubmit emails you
-          a one-time link to activate the form.
-        </p>
-        <p className="mt-3 leading-relaxed">
-          For the thank-you page after submit, set{" "}
-          <code className="rounded bg-background px-1.5 py-0.5 text-xs text-gold-soft">
-            NEXT_PUBLIC_SITE_URL
-          </code>{" "}
-          to your live URL on Vercel (or{" "}
-          <code className="text-xs text-gold-soft">http://localhost:3000</code>{" "}
-          locally).
-        </p>
-      </div>
-    );
-  }
-
   return (
     <form
-      action={action}
+      action={FORMSUBMIT_ACTION}
       method="POST"
       className={`relative flex flex-col gap-5 ${className}`}
     >
-      <input type="hidden" name="_subject" value="Aurum Web Design: inquiry" />
-      <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      {SITE.formSubmitThankYouUrl ? (
-        <input type="hidden" name="_next" value={SITE.formSubmitThankYouUrl} />
-      ) : null}
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Aurum Web Design Inquiry"
+      />
+      <input type="hidden" name="_next" value={FORMSUBMIT_NEXT} />
 
       {/* Honeypot: leave empty; FormSubmit rejects spam if filled */}
       <input

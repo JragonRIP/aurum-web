@@ -1,7 +1,4 @@
-/**
- * Site-wide copy and links.
- * FormSubmit: set NEXT_PUBLIC_FORMSUBMIT_EMAIL in .env.local (see .env.example). Add the same in Vercel → Settings → Environment Variables.
- */
+/** Site-wide copy and links. */
 function normalizeSiteUrl(url: string | undefined): string | undefined {
   if (!url?.trim()) return undefined;
   return url.replace(/\/+$/, "");
@@ -19,13 +16,6 @@ export const SITE = {
     "Web design for trades from Michigan's Upper Peninsula: sharp, fast, and client-ready. UP proud.",
   phoneDisplay: "906-290-0302",
   phoneTel: "+19062900302",
-  /** FormSubmit recipient. Empty until you set NEXT_PUBLIC_FORMSUBMIT_EMAIL */
-  formSubmitEmail: process.env.NEXT_PUBLIC_FORMSUBMIT_EMAIL?.trim() ?? "",
-  /** Absolute URL for FormSubmit _next redirect; requires NEXT_PUBLIC_SITE_URL */
-  formSubmitThankYouUrl: siteUrl ? `${siteUrl}/contact/thank-you` : "",
-  formSubmitConfigured: Boolean(
-    process.env.NEXT_PUBLIC_FORMSUBMIT_EMAIL?.trim()
-  ),
   /** Live Aurum Auto Detail case study site */
   aurumAutoDetailUrl: "https://aurum-nextjs.vercel.app",
   /** Portfolio card image (screenshot of the live site) */
