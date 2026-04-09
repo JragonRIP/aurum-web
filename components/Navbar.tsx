@@ -79,7 +79,7 @@ export function Navbar() {
         </div>
       </nav>
       {open ? (
-        <div className="fixed inset-0 top-16 z-40 flex flex-col bg-background px-5 py-8 md:hidden">
+        <div className="fixed inset-x-0 bottom-0 top-16 z-40 flex min-h-[calc(100dvh-4rem)] flex-col overflow-y-auto border-t border-border-subtle bg-surface px-5 py-8 shadow-[0_-12px_40px_rgba(0,0,0,0.45)] md:hidden">
           <ul className="flex flex-col gap-6">
             {links.map(({ href, label }) => (
               <li key={href}>
