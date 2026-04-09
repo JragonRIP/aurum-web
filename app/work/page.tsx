@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const PLACEHOLDER_COUNT = 3;
+const PLACEHOLDER_COUNT = 2;
 
 export default function WorkPage() {
   return (
@@ -41,6 +41,14 @@ export default function WorkPage() {
             imageSrc={SITE.aurumPortfolioImageSrc}
             imageAlt={SITE.aurumPortfolioImageAlt}
             href={SITE.aurumAutoDetailUrl}
+          />
+          <CaseStudyCard
+            badge="Case Study 02"
+            title="Wendricks Truss, Inc."
+            description={SITE.wendricksTrussCaseStudy}
+            imageSrc={SITE.wendricksPortfolioImageSrc}
+            imageAlt={SITE.wendricksPortfolioImageAlt}
+            href={SITE.wendricksTrussUrl}
           />
           {Array.from({ length: PLACEHOLDER_COUNT }, (_, i) => (
             <CaseStudyCard

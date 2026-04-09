@@ -25,6 +25,13 @@ export const SITE = {
   /** Case study card / portfolio description */
   aurumAutoDetailCaseStudy:
     "We designed and built the live Aurum Auto Detail site for the Upper Peninsula: clear service packages and pricing, before-and-after results, and a booking-ready contact flow built mobile-first so customers can act from the driveway or the shop. Same bar we hold for every trades client: credible, fast, and easy to hire.",
+  /** Wendricks Truss, Inc. */
+  wendricksTrussUrl: "https://wendricks-web.vercel.app",
+  wendricksPortfolioImageSrc: "/images/wendricks-truss-portfolio.png",
+  wendricksPortfolioImageAlt:
+    "Wendricks Truss website homepage: hero with engineered components headline and aerial view of the manufacturing facility",
+  wendricksTrussCaseStudy:
+    "We built the Wendricks Truss, Inc. site for a family-owned manufacturer (est. 1975): wood trusses, I-joists, Total Wall panels, and steel framing from Hermansville and Sault Ste. Marie. The experience highlights two Michigan locations, quality-controlled manufacturing, Nordic Structures partnership, planning calculators for rafters and roofs, and straightforward quote and contact paths for contractors across the Upper Peninsula.",
 };
 
 export const defaultOpenGraph = {

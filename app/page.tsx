@@ -122,11 +122,12 @@ export default function HomePage() {
               href={SITE.aurumAutoDetailUrl}
             />
             <CaseStudyCard
-              title="More work on the way"
-              description="Additional case studies will appear here as new projects launch."
-              imageSrc="/images/case-study-aurum.svg"
-              imageAlt=""
-              comingSoon
+              badge="Case Study 02"
+              title="Wendricks Truss, Inc."
+              description={SITE.wendricksTrussCaseStudy}
+              imageSrc={SITE.wendricksPortfolioImageSrc}
+              imageAlt={SITE.wendricksPortfolioImageAlt}
+              href={SITE.wendricksTrussUrl}
             />
           </div>
         </SectionWrapper>
