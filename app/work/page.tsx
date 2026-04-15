@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const PLACEHOLDER_COUNT = 2;
+const PLACEHOLDER_COUNT = 1;
 
 export default function WorkPage() {
   return (
@@ -49,6 +49,14 @@ export default function WorkPage() {
             imageSrc={SITE.wendricksPortfolioImageSrc}
             imageAlt={SITE.wendricksPortfolioImageAlt}
             href={SITE.wendricksTrussUrl}
+          />
+          <CaseStudyCard
+            badge="Case Study 03"
+            title="Stop 'N Go 2.0"
+            description={SITE.stopNGoCaseStudy}
+            imageSrc={SITE.stopNGoPortfolioImageSrc}
+            imageAlt={SITE.stopNGoPortfolioImageAlt}
+            href={SITE.stopNGoUrl}
           />
           {Array.from({ length: PLACEHOLDER_COUNT }, (_, i) => (
             <CaseStudyCard

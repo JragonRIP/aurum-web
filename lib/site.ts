@@ -32,6 +32,13 @@ export const SITE = {
     "Wendricks Truss website homepage: hero with engineered components headline and aerial view of the manufacturing facility",
   wendricksTrussCaseStudy:
     "We built the Wendricks Truss, Inc. site for a family-owned manufacturer (est. 1975): wood trusses, I-joists, Total Wall panels, and steel framing from Hermansville and Sault Ste. Marie. The experience highlights two Michigan locations, quality-controlled manufacturing, Nordic Structures partnership, planning calculators for rafters and roofs, and straightforward quote and contact paths for contractors across the Upper Peninsula.",
+  /** Stop 'N Go 2.0 — Powers, MI */
+  stopNGoUrl: "https://stopngo-web.vercel.app",
+  stopNGoPortfolioImageSrc: "/images/stop-n-go-portfolio.png",
+  stopNGoPortfolioImageAlt:
+    "Stop 'N Go 2.0 website: dark hero with Upper Peninsula tagline, coffee and Smash Burgers, and order for pickup",
+  stopNGoCaseStudy:
+    "We designed and built the Stop 'N Go 2.0 site for a locally owned food trailer and coffee stop in Powers, Michigan: early-morning hours, drive-thru and walk-up messaging, full menu and online ordering, and location and hours—dark, high-contrast UI with clear CTAs so U.P. customers can order pickup or plan a visit from their phone.",
 };
 
 export const defaultOpenGraph = {
