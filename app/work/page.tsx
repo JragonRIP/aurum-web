@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const PLACEHOLDER_COUNT = 1;
+const PLACEHOLDER_COUNT = 0;
 
 export default function WorkPage() {
   return (
@@ -33,7 +33,7 @@ export default function WorkPage() {
           credibility on the first scroll. New case studies slot into this grid
           as simple additional cards.
         </p>
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
           <CaseStudyCard
             badge="Case Study 01"
             title="Aurum Auto Detail"
@@ -57,6 +57,14 @@ export default function WorkPage() {
             imageSrc={SITE.stopNGoPortfolioImageSrc}
             imageAlt={SITE.stopNGoPortfolioImageAlt}
             href={SITE.stopNGoUrl}
+          />
+          <CaseStudyCard
+            badge="Case Study 04"
+            title="Edelweiss Coffee"
+            description={SITE.edelweissCaseStudy}
+            imageSrc={SITE.edelweissPortfolioImageSrc}
+            imageAlt={SITE.edelweissPortfolioImageAlt}
+            href={SITE.edelweissCoffeeUrl}
           />
           {Array.from({ length: PLACEHOLDER_COUNT }, (_, i) => (
             <CaseStudyCard

@@ -39,6 +39,13 @@ export const SITE = {
     "Stop 'N Go 2.0 website: dark hero with Upper Peninsula tagline, coffee and Smash Burgers, and order for pickup",
   stopNGoCaseStudy:
     "We designed and built the Stop 'N Go 2.0 site for a locally owned food trailer and coffee stop in Powers, Michigan: early-morning hours, drive-thru and walk-up messaging, full menu and online ordering, and location and hours—dark, high-contrast UI with clear CTAs so U.P. customers can order pickup or plan a visit from their phone.",
+  /** Edelweiss Coffee — Iron Mountain, MI */
+  edelweissCoffeeUrl: "https://edelweiss-website.vercel.app",
+  edelweissPortfolioImageSrc: "/images/edelweiss-coffee-portfolio.png",
+  edelweissPortfolioImageAlt:
+    "Edelweiss Coffee website: hero with latte art photography, Iron Mountain drive-thru headline, and menu and order CTAs",
+  edelweissCaseStudy:
+    "We built the Edelweiss Coffee site for a drive-thru specialty coffee shop in Iron Mountain, Michigan: two-lane messaging, Crimson Cup Coffee & Tea story, full menu and online ordering, hours and location next to Dickinson County Hospital, and phone for call-ahead—warm dark palette and serif headlines so the brand reads premium and approachable on mobile first.",
 };
 
 export const defaultOpenGraph = {

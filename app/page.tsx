@@ -112,7 +112,7 @@ export default function HomePage() {
               All projects →
             </Link>
           </div>
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
             <CaseStudyCard
               badge="Case Study 01"
               title="Aurum Auto Detail"
@@ -136,6 +136,14 @@ export default function HomePage() {
               imageSrc={SITE.stopNGoPortfolioImageSrc}
               imageAlt={SITE.stopNGoPortfolioImageAlt}
               href={SITE.stopNGoUrl}
+            />
+            <CaseStudyCard
+              badge="Case Study 04"
+              title="Edelweiss Coffee"
+              description={SITE.edelweissCaseStudy}
+              imageSrc={SITE.edelweissPortfolioImageSrc}
+              imageAlt={SITE.edelweissPortfolioImageAlt}
+              href={SITE.edelweissCoffeeUrl}
             />
           </div>
         </SectionWrapper>
