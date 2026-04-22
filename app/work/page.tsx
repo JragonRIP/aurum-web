@@ -66,6 +66,14 @@ export default function WorkPage() {
             imageAlt={SITE.edelweissPortfolioImageAlt}
             href={SITE.edelweissCoffeeUrl}
           />
+          <CaseStudyCard
+            badge="Case Study 05"
+            title="Sidetrack Bar & Grill"
+            description={SITE.sidetrackBarGrillCaseStudy}
+            imageSrc={SITE.sidetrackPortfolioImageSrc}
+            imageAlt={SITE.sidetrackPortfolioImageAlt}
+            href={SITE.sidetrackBarGrillUrl}
+          />
           {Array.from({ length: PLACEHOLDER_COUNT }, (_, i) => (
             <CaseStudyCard
               key={i}

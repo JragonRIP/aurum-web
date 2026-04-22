@@ -46,6 +46,13 @@ export const SITE = {
     "Edelweiss Coffee website: hero with latte art photography, Iron Mountain drive-thru headline, and menu and order CTAs",
   edelweissCaseStudy:
     "We built the Edelweiss Coffee site for a drive-thru specialty coffee shop in Iron Mountain, Michigan: two-lane messaging, Crimson Cup Coffee & Tea story, full menu and online ordering, hours and location next to Dickinson County Hospital, and phone for call-ahead—warm dark palette and serif headlines so the brand reads premium and approachable on mobile first.",
+  /** Sidetrack Bar & Grill — Powers, MI */
+  sidetrackBarGrillUrl: "https://sidetrack-web-7fpy.vercel.app",
+  sidetrackPortfolioImageSrc: "/images/sidetrack-bar-grill-portfolio.png",
+  sidetrackPortfolioImageAlt:
+    "Sidetrack Bar & Grill website: dark hero with Get Derailed headline, gold accents, and restaurant exterior along US-2",
+  sidetrackBarGrillCaseStudy:
+    "We designed and built the Sidetrack Bar & Grill site for a railroad-themed restaurant and full bar in Powers, Michigan on US-2: scrolling specials ticker, hero with menu and hours CTAs, signature dishes (Engineer pizza, fish fry Friday, pasta Sunday), takeout callouts, guest notes, and visit section with maps and weekly hours—dark layout with gold accents and serif headlines so locals and travelers get the menu, phone, and directions on mobile first.",
 };
 
 export const defaultOpenGraph = {

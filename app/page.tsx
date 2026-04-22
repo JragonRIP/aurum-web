@@ -145,6 +145,14 @@ export default function HomePage() {
               imageAlt={SITE.edelweissPortfolioImageAlt}
               href={SITE.edelweissCoffeeUrl}
             />
+            <CaseStudyCard
+              badge="Case Study 05"
+              title="Sidetrack Bar & Grill"
+              description={SITE.sidetrackBarGrillCaseStudy}
+              imageSrc={SITE.sidetrackPortfolioImageSrc}
+              imageAlt={SITE.sidetrackPortfolioImageAlt}
+              href={SITE.sidetrackBarGrillUrl}
+            />
           </div>
         </SectionWrapper>
       </MotionSection>
