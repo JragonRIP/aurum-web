@@ -131,14 +131,6 @@ export default function HomePage() {
             />
             <CaseStudyCard
               badge="Case Study 03"
-              title="Stop 'N Go 2.0"
-              description={SITE.stopNGoCaseStudy}
-              imageSrc={SITE.stopNGoPortfolioImageSrc}
-              imageAlt={SITE.stopNGoPortfolioImageAlt}
-              href={SITE.stopNGoUrl}
-            />
-            <CaseStudyCard
-              badge="Case Study 04"
               title="Edelweiss Coffee"
               description={SITE.edelweissCaseStudy}
               imageSrc={SITE.edelweissPortfolioImageSrc}
@@ -146,7 +138,7 @@ export default function HomePage() {
               href={SITE.edelweissCoffeeUrl}
             />
             <CaseStudyCard
-              badge="Case Study 05"
+              badge="Case Study 04"
               title="Sidetrack Bar & Grill"
               description={SITE.sidetrackBarGrillCaseStudy}
               imageSrc={SITE.sidetrackPortfolioImageSrc}
