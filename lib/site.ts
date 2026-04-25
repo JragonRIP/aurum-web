@@ -14,6 +14,19 @@ export const SITE = {
   parentBrand: "Aurum Auto Detail LLC",
   tagline:
     "Web design for trades from Michigan's Upper Peninsula: sharp, fast, and client-ready. UP proud.",
+  /** Portfolio case study cards */
+  caseStudyBuildNote: "Custom coded. Built from scratch in 48 hours.",
+  /** Custom code value prop (homepage + work) */
+  customCodeLabel: "How we build",
+  customCodeTitle: "Custom code—not a template",
+  customCodeLead:
+    "Every site is custom coded from scratch. No Wix. No Squarespace. No templates.",
+  customCodeBenefits: [
+    "Faster load times than template builders",
+    "Doesn't look like every other small business website",
+    "You own it completely—not locked into a platform",
+    "No monthly Squarespace fee on top of your Aurum plan",
+  ] as const,
   phoneDisplay: "906-290-0302",
   phoneTel: "+19062900302",
   /** Live Aurum Auto Detail case study site */

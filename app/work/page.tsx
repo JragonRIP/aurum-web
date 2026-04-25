@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CaseStudyCard } from "@/components/CaseStudyCard";
+import { CustomCodeSection } from "@/components/CustomCodeSection";
 import { MotionSection } from "@/components/MotionSection";
 import { SectionWrapper } from "@/components/SectionWrapper";
 import { SITE } from "@/lib/site";
@@ -33,7 +34,10 @@ export default function WorkPage() {
           credibility on the first scroll. New case studies slot into this grid
           as simple additional cards.
         </p>
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+      </SectionWrapper>
+      <CustomCodeSection className="!border-b-0 border-t border-border-subtle py-16 md:mt-2 md:py-20" />
+      <SectionWrapper as="div">
+        <div className="mt-2 grid gap-8 sm:grid-cols-2 sm:mt-0 lg:grid-cols-2">
           <CaseStudyCard
             badge="Case Study 01"
             title="Aurum Auto Detail"

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { SITE } from "@/lib/site";
 
 export type CaseStudyCardProps = {
   title: string;
@@ -8,6 +9,8 @@ export type CaseStudyCardProps = {
   href?: string;
   badge?: string;
   comingSoon?: boolean;
+  /** Defaults to site-wide “custom coded” line; pass empty string to hide */
+  buildNote?: string;
 };
 
 export function CaseStudyCard({
@@ -18,7 +21,9 @@ export function CaseStudyCard({
   href,
   badge,
   comingSoon,
+  buildNote = SITE.caseStudyBuildNote,
 }: CaseStudyCardProps) {
+  const showBuildLine = !comingSoon && Boolean(buildNote);
   const inner = (
     <>
       <div className="relative aspect-[16/10] overflow-hidden rounded-t-xl bg-surface-hover">
@@ -48,6 +53,9 @@ export function CaseStudyCard({
         <h3 className="font-serif text-xl font-semibold text-foreground md:text-2xl">
           {title}
         </h3>
+        {showBuildLine ? (
+          <p className="mt-2 text-xs font-medium text-gold">{buildNote}</p>
+        ) : null}
         <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">
           {description}
         </p>

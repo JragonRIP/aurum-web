@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CaseStudyCard } from "@/components/CaseStudyCard";
+import { CustomCodeSection } from "@/components/CustomCodeSection";
 import { ContactForm } from "@/components/ContactForm";
 import { MotionSection } from "@/components/MotionSection";
 import { PricingCard } from "@/components/PricingCard";
@@ -75,6 +76,8 @@ export default function HomePage() {
           </div>
         </SectionWrapper>
       </section>
+
+      <CustomCodeSection />
 
       <MotionSection className="border-b border-border-subtle py-20 md:py-28">
         <SectionWrapper>
