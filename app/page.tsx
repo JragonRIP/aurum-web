@@ -50,6 +50,9 @@ export default function HomePage() {
           <h1 className="mt-6 max-w-4xl font-serif text-4xl font-semibold leading-[1.08] tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-[3.5rem]">
             Trades websites that look sharp and win you work.
           </h1>
+          <p className="mt-5 max-w-2xl font-serif text-2xl font-semibold tracking-tight text-gold md:text-3xl">
+            Live in 48 hours
+          </p>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
             We&apos;re Upper Peninsula proud, based in Michigan&apos;s U.P.,
             building professional sites for contractors and trades: clear

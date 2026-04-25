@@ -15,7 +15,7 @@ export const PRICING_TIERS: PricingTier[] = [
     id: "starter",
     name: "Starter",
     tagline: "Perfect for small businesses getting online",
-    price: "$200/mo",
+    price: "$300/mo",
     cta: "Get Started",
     features: [
       "Custom website (up to 5 pages)",
@@ -39,13 +39,13 @@ export const PRICING_TIERS: PricingTier[] = [
       "Everything in Starter",
       "Unlimited pages",
       "Blog or portfolio section",
-      "Performance reports",
+      "Monthly SEO and analytics report",
       "Live chat integration",
       "Booking system",
       "Priority support (24hr response)",
     ],
     detail:
-      "When you are booking more jobs and need room to grow: richer content, performance reporting, and integrations that reduce phone tag without drowning you in dashboards.",
+      "When you are booking more jobs and need room to grow: richer content, monthly SEO and analytics reporting, and integrations that reduce phone tag without drowning you in dashboards.",
   },
   {
     id: "store",
@@ -59,9 +59,9 @@ export const PRICING_TIERS: PricingTier[] = [
       "Product management",
       "Stripe payment integration",
       "Customer analytics",
-      "24/7 priority support",
+      "Issues resolved within 24 hours",
     ],
     detail:
-      "Sell products or packages online with Stripe-backed checkout and a store that stays fast on mobile. We stay close on support so issues do not sit in a queue while you are on a job site.",
+      "Sell products or packages online with Stripe-backed checkout and a store that stays fast on mobile. We treat support seriously: issues resolved within 24 hours so nothing sits in a queue while you are on a job site.",
   },
 ];
