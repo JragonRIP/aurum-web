@@ -13,18 +13,18 @@ export const SITE = {
   name: "Aurum Web Design",
   parentBrand: "Aurum Auto Detail LLC",
   tagline:
-    "Web design for trades from Michigan's Upper Peninsula: sharp, fast, and client-ready. UP proud.",
+    "Web design for trades from Michigan's Upper Peninsula: sharp, fast, and client ready. UP proud.",
   /** Portfolio case study cards */
   caseStudyBuildNote: "Custom coded. Built from scratch in 48 hours.",
   /** Custom code value prop (homepage + work) */
   customCodeLabel: "How we build",
-  customCodeTitle: "Custom code—not a template",
+  customCodeTitle: "Custom code, not a template",
   customCodeLead:
     "Every site is custom coded from scratch. No Wix. No Squarespace. No templates.",
   customCodeBenefits: [
     "Faster load times than template builders",
-    "Doesn't look like every other small business website",
-    "You own it completely—not locked into a platform",
+    "Does not look like every other small business website",
+    "We build the site, then you rent it month to month through your Aurum plan, not a separate page builder bill",
     "No monthly Squarespace fee on top of your Aurum plan",
   ] as const,
   phoneDisplay: "906-290-0302",
@@ -37,7 +37,7 @@ export const SITE = {
     "Aurum Auto Detail website: hero with Upper Peninsula branding and premium vehicle photography",
   /** Case study card / portfolio description */
   aurumAutoDetailCaseStudy:
-    "We designed and built the live Aurum Auto Detail site for the Upper Peninsula: clear service packages and pricing, before-and-after results, and a booking-ready contact flow built mobile-first so customers can act from the driveway or the shop. Same bar we hold for every trades client: credible, fast, and easy to hire.",
+    "We designed and built the live Aurum Auto Detail site for the Upper Peninsula: clear service packages and pricing, before-and-after results, and a booking-ready contact flow built mobile first so customers can act from the driveway or the shop. Same bar we hold for every trades client: credible, fast, and easy to hire.",
   /** Wendricks Truss, Inc. */
   wendricksTrussUrl: "https://wendricks-web.vercel.app",
   wendricksPortfolioImageSrc: "/images/wendricks-truss-portfolio.png",
@@ -45,20 +45,20 @@ export const SITE = {
     "Wendricks Truss website homepage: hero with engineered components headline and aerial view of the manufacturing facility",
   wendricksTrussCaseStudy:
     "We built the Wendricks Truss, Inc. site for a family-owned manufacturer (est. 1975): wood trusses, I-joists, Total Wall panels, and steel framing from Hermansville and Sault Ste. Marie. The experience highlights two Michigan locations, quality-controlled manufacturing, Nordic Structures partnership, planning calculators for rafters and roofs, and straightforward quote and contact paths for contractors across the Upper Peninsula.",
-  /** Edelweiss Coffee — Iron Mountain, MI */
+  /** Edelweiss Coffee (Iron Mountain, MI) */
   edelweissCoffeeUrl: "https://edelweiss-website.vercel.app",
   edelweissPortfolioImageSrc: "/images/edelweiss-coffee-portfolio.png",
   edelweissPortfolioImageAlt:
     "Edelweiss Coffee website: hero with latte art photography, Iron Mountain drive-thru headline, and menu and order CTAs",
   edelweissCaseStudy:
-    "We built the Edelweiss Coffee site for a drive-thru specialty coffee shop in Iron Mountain, Michigan: two-lane messaging, Crimson Cup Coffee & Tea story, full menu and online ordering, hours and location next to Dickinson County Hospital, and phone for call-ahead—warm dark palette and serif headlines so the brand reads premium and approachable on mobile first.",
-  /** Sidetrack Bar & Grill — Powers, MI */
+    "We built the Edelweiss Coffee site for a drive-thru specialty coffee shop in Iron Mountain, Michigan: two-lane messaging, Crimson Cup Coffee & Tea story, full menu and online ordering, hours and location next to Dickinson County Hospital, and phone for call-ahead. A warm dark palette and serif headlines so the brand reads premium and approachable on mobile first.",
+  /** Sidetrack Bar & Grill (Powers, MI) */
   sidetrackBarGrillUrl: "https://sidetrack-web-7fpy.vercel.app",
   sidetrackPortfolioImageSrc: "/images/sidetrack-bar-grill-portfolio.png",
   sidetrackPortfolioImageAlt:
-    "Sidetrack Bar & Grill website: dark hero with Get Derailed headline, gold accents, and restaurant exterior along US-2",
+    "Sidetrack Bar & Grill website: dark hero with Get Derailed headline, gold accents, and restaurant exterior along U.S. Highway 2",
   sidetrackBarGrillCaseStudy:
-    "We designed and built the Sidetrack Bar & Grill site for a railroad-themed restaurant and full bar in Powers, Michigan on US-2: scrolling specials ticker, hero with menu and hours CTAs, signature dishes (Engineer pizza, fish fry Friday, pasta Sunday), takeout callouts, guest notes, and visit section with maps and weekly hours—dark layout with gold accents and serif headlines so locals and travelers get the menu, phone, and directions on mobile first.",
+    "We designed and built the Sidetrack Bar & Grill site for a railroad-themed restaurant and full bar in Powers, Michigan on U.S. Highway 2: scrolling specials ticker, hero with menu and hours CTAs, signature dishes (Engineer pizza, fish fry Friday, pasta Sunday), takeout callouts, guest notes, and visit section with maps and weekly hours. A dark layout with gold accents and serif headlines so locals and travelers get the menu, phone, and directions on mobile first.",
 };
 
 export const defaultOpenGraph = {

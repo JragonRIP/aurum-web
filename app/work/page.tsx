@@ -30,7 +30,7 @@ export default function WorkPage() {
           Work we have shipped for trades and local brands.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
-          Each project is designed for mobile-first leads, clear services, and
+          Each project is designed for mobile first leads, clear services, and
           credibility on the first scroll. New case studies slot into this grid
           as simple additional cards.
         </p>

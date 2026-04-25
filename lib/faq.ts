@@ -9,7 +9,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Do I own my website?",
-    a: "You own your content and images. The site is built and maintained on our platform. If you cancel, you keep your content but not the site itself.",
+    a: "You own your content and images. We build, host, and maintain the site; you pay a fixed monthly plan to use it, similar to renting the finished work. If you cancel, you keep your content but not the site itself.",
   },
   {
     q: "Can you integrate booking or payments?",

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Premium websites for contractors and trades businesses. Fast turnaround, monthly plans, mobile-first. Aurum Web Design.",
+    "Premium websites for contractors and trades businesses. Fast turnaround, monthly plans, mobile first. Aurum Web Design.",
   openGraph: {
     ...defaultOpenGraph,
     title: SITE.name,

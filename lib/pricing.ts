@@ -26,7 +26,7 @@ export const PRICING_TIERS: PricingTier[] = [
       "Email support",
     ],
     detail:
-      "Ideal when you need a credible presence fast: service pages, about, contact, and a polished mobile experience. We handle hosting-adjacent updates on a predictable monthly rhythm so you stay current without chasing vendors.",
+      "Ideal when you need a credible presence fast: service pages, about, contact, and a polished mobile experience. We handle updates tied to hosting on a predictable monthly rhythm so you stay current without chasing vendors.",
   },
   {
     id: "pro",
@@ -42,7 +42,7 @@ export const PRICING_TIERS: PricingTier[] = [
       "Monthly SEO and analytics report",
       "Live chat integration",
       "Booking system",
-      "Priority support (24hr response)",
+      "Priority support (24 hour response)",
     ],
     detail:
       "When you are booking more jobs and need room to grow: richer content, monthly SEO and analytics reporting, and integrations that reduce phone tag without drowning you in dashboards.",
@@ -62,6 +62,6 @@ export const PRICING_TIERS: PricingTier[] = [
       "Issues resolved within 24 hours",
     ],
     detail:
-      "Sell products or packages online with Stripe-backed checkout and a store that stays fast on mobile. We treat support seriously: issues resolved within 24 hours so nothing sits in a queue while you are on a job site.",
+      "Sell products or packages online with checkout through Stripe and a store that stays fast on mobile. We treat support seriously: issues resolved within 24 hours so nothing sits in a queue while you are on a job site.",
   },
 ];

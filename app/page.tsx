@@ -11,7 +11,7 @@ import { SITE } from "@/lib/site";
 
 const WHY_ITEMS = [
   {
-    title: "Trades-first structure",
+    title: "Trades first structure",
     body: "Your services, service area, and proof front and center, not vague “solutions” copy. Built so a cold lead knows what you do and what to do next.",
   },
   {
@@ -23,7 +23,7 @@ const WHY_ITEMS = [
     body: "Predictable pricing and included updates, with no surprise invoices when you need hours or copy tweaked.",
   },
   {
-    title: "Mobile-first",
+    title: "Mobile first",
     body: "Most estimates happen on a phone between jobs. Every layout is tested for thumb reach, speed, and clarity on small screens.",
   },
   {
@@ -57,7 +57,7 @@ export default function HomePage() {
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
             We&apos;re Upper Peninsula proud, based in Michigan&apos;s U.P.,
             building professional sites for contractors and trades: clear
-            calls-to-action, fast load times on the job site, and a presence
+            calls to action, fast load times on the job site, and a presence
             that matches how seriously you run your business.
           </p>
           <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center">

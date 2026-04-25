@@ -23,8 +23,9 @@ export function CustomCodeSection({ className = "" }: CustomCodeSectionProps) {
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted md:text-base">
           If you have been burned by DIY drag-and-drop builders, this is the
-          difference: real performance, a site that is yours, and one predictable
-          monthly line item—not a platform tax stacked on your marketing budget.
+          difference: real performance, a hand-built site you use for one monthly
+          Aurum plan, and a predictable line item, not a second platform bill
+          stacked on your marketing budget.
         </p>
         <ul className="mt-10 max-w-2xl list-none space-y-4 p-0">
           {SITE.customCodeBenefits.map((line) => (
